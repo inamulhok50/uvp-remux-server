@@ -1,0 +1,13 @@
+{
+  "name": "uvp-remux-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pulls an external MKV/MP4 URL, remuxes/transcodes it with FFmpeg into a multi-audio, multi-subtitle HLS VOD stream, and serves it with Range support and CORS.",
+  "main": "index.js",
+  "scripts": { "start": "node index.js" },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  },
+  "engines": { "node": ">=18" }
+}
